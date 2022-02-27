@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+/*  */
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #555;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/*  styling links  */
+a:link,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #ca6702;
+}
+a:hover {
+  color: #e6ae7c;
+}
+
+li {
+  margin-left: 15px;
+  list-style: none;
+}
+
+/* styling paragraphs  */
+p {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+/* giving all sections the same  padding */
+section {
+  padding: 0 100px 100px 100px;
+}
+/* ginging all sections headings  the same color and font-size */
+section .heading {
+  color: #cf711f;
+  font-size: 45px;
+}
+
+.main-nav-link {
+  background-color: #fdf2e9;
+  width: 100%;
+}
+.header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 20px;
+}
+
+.section-intro {
+  display: flex;
+  align-items: center;
+  background-color: #fdf2e9;
+}
+
+.intro-details {
+  flex-grow: 2;
+}
+/* styling the primary heading  */
+.intro-details h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #333;
+}
+
+.intro-details p,
+.intro-details ul {
+  font-size: 20px;
+}
+/*  highliting important words */
+.intro-details p span {
+  color: #cf711f;
+  font-weight: 600;
+}
+
+.intro-image-box {
+  padding-left: 20px;
+
+  flex-grow: 1;
+}
+/*  the main image making it round  */
+.intro-image {
+  width: 300px;
+  border-radius: 50%;
+}
+
+ion-icon {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+footer {
+  padding: 20px 20px;
+  text-align: center;
+  background-color: #cf711f;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
